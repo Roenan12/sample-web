@@ -6,13 +6,13 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500"
+      className="min-h-screen flex items-center justify-center bg-neutral-950"
     >
       <div className="text-center">
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
+        <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 ">
           Welcome to Our Website
         </h1>
-        <p className="text-xl md:text-2xl text-white mb-8">
+        <p className="text-xl md:text-2xl text-white mb-8 ">
           Discover amazing things with us
         </p>
         <Button
